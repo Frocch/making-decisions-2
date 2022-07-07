@@ -97,8 +97,8 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 let someNum = myFavoriteNumbers.slice(4, 5)
 
-console.log(myFavoriteNumbers)
-console.log(someNum)
+// console.log(myFavoriteNumbers)
+// console.log(someNum)
 
 ////////// PROBLEM 7 //////////
 
@@ -107,6 +107,11 @@ console.log(someNum)
 
 //Code Here
 
+if (myFavoriteNumbers.length < 7) {
+  console.log("there are not enough elements in this array")
+} else if (myFavoriteNumbers.length > 7) {
+  someNum = myFavoriteNumbers[6]
+}
 
 ////////// PROBLEM 8 //////////
 
